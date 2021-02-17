@@ -58,16 +58,35 @@
 /* Coin css */
 
 .coin__image {
-  width: 2rem;
+  width: 3rem;
 }
 
 .coin__symbol {
   text-transform: uppercase;
 }
 
+.red, .green {
+  margin-left: 20px;
+
+}
 .red {
   color: #f44336;
 }
 .green {
   color: #4caf50;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+td {
+  width: 10% ;
+  text-align: left;
+  border-top: 0px solid #111 !important;
+}
+
+.make {
+  padding-left: 20px !important;
 }

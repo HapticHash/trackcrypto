@@ -44,10 +44,10 @@ function App() {
           <Table hover variant="dark" responsive>
             <thead>
               <tr>
-                <th>Logo</th>
-                <th>Coin</th>
+                <th className="make">Logo</th>
+                <th className="make">Coin</th>
                 <th>Symbol</th>
-                <th>Market Cap</th>
+                <th className="make">Market Cap</th>
                 <th>Price</th>
                 <th>Volume 24H</th>
                 <th>Change</th>

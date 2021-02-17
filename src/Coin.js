@@ -40,7 +40,7 @@ const Coin = ({
                 </td>
 
                 <td>
-                  <p className="coin__vol"> CA$ {volume.toLocaleString()}</p>
+                  <p className="coin__vol"> CA$ {volume}</p>
                 </td>
 
                 <td>
