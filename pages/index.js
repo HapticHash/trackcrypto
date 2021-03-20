@@ -1,14 +1,14 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import SearchBar from "../components/SearchBar";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Crypto Tracker</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Hello World! </h1>
+      <SearchBar type="text" placeholder="Search" />
     </div>
   );
 }
